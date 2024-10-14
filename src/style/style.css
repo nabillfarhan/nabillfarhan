@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* .space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+} */
+
+body {
+  background-color: #09090b;
+  font-family: "Space Mono", monospace;
+  color: #f4f4f5;
+}
+
+.sub {
+  margin: 0;
+  color: #3f3f46;
+}
+.sosmed {
+  padding: 20px;
+  text-align: right;
+  margin: auto 0;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: #f4f4f5;
+  margin-left: 20px;
+  transition: font-weight 0.3s ease, text-decoration 0.3s ease;
+}
+
+.link:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 30% 70%; /* Definisikan grid dengan rasio 30/70 */
+  gap: 10px; /* Jarak antara kolom */
+  padding: 2px;
+}
+
+.sidebar {
+  padding: 10px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: justify;
+}
+
+h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+p {
+  margin: 2px 2px 20px 2px;
+  font-size: 14px;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: #f4f4f5;
+  padding: 15px 20px;
+  border: 2px solid #f4f4f5;
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+    transform 0.3s ease, margin-left 0.3s ease;
+}
+
+.button:hover {
+  background-color: #f4f4f5;
+  color: #09090b;
+  font-weight: bold;
+  transform: scale(1.05);
+  margin-left: 7px;
+}
